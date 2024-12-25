@@ -1,0 +1,68 @@
+name: bootcamp_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.6
+  #State_Managment
+  stacked: ^3.4.2
+  stacked_services: ^1.5.0
+  get_it: ^7.7.0
+  #Firebase
+  firebase_core: ^2.28.0
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  carousel_slider:
+    git:
+      url: https://github.com/sampaio96/flutter_carousel_slider.git
+      ref: master
+  flutter_credit_card: ^3.0.1
+
+
+  #Yapay_Zeka
+  google_generative_ai:
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^3.0.0
+  build_runner:
+  stacked_generator: ^1.6.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21 
+
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  
